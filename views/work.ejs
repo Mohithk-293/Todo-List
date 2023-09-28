@@ -1,0 +1,32 @@
+<%-include("header.ejs") %>
+<div class="date">Work List</div>
+<div class="todo-box">
+    <div class="todo-list-box">
+<% if(locals.items) {%>
+<%for(let i=0;i<items.length;i++){%>
+    <% if(items[i]!="") {%>
+    <div class="each-item"><input type="checkbox"><span><%=items[i]%></span></div><hr> 
+    
+    <% } %>
+<% } %>
+<% } %>
+    </div>
+    <div class="form-box">
+<form action="/" method="post">
+    <input type="text" name="item" placeholder="New Item" class="input-field">
+    <input type="submit" value="+" class=" button">
+</form>
+</div>
+</div>
+
+
+
+
+
+
+
+<<<<<<< HEAD
+=======
+
+>>>>>>> abc74bb (Complete first commit)
+<%-include("footer.ejs")%>

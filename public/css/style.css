@@ -1,0 +1,203 @@
+
+body{
+  background-image: -webkit-linear-gradient(55deg, #ad6beb 50%, #D0BFFF 50%);
+  font-family: 'Josefin Sans', sans-serif;
+  background-repeat: no-repeat;
+  color:gray;
+  width:100%;
+  margin:0;
+    padding:0;
+    overflow-x: hidden;
+  height: 100%;
+  
+}
+.navbar{
+    padding:1rem 2rem;
+}
+.date,.work-heading
+{
+    box-shadow:0 4px 8px 0 rgb(0,0,0,0.5),0 6px 20px 0 rgb(0,0,0,0.2);
+    border-radius: 1.8rem;
+    padding:1.25rem 0.62rem;
+    margin:3.75rem 29.37rem;
+    text-align: center;
+    color: #fff;
+    font-size:1.25rem;
+    background-color: #a65fe9;
+}
+
+.todo-box
+{
+    margin:0px 31.25rem 3.125rem;
+    box-shadow:0 4px 8px 0 rgb(0,0,0,0.5),0 6px 20px 0 rgb(0,0,0,0.2);
+    border-radius: 0.93rem;
+    background-color: #fff;
+    
+}
+.form-box{
+    padding:0.625rem 3.43rem 2.5rem;
+}
+.todo-list-box{
+  
+    padding:2.5rem 3.125rem;
+}
+.each-item
+{
+    margin:1.25rem 0;
+    font-size: 1.562rem;
+}
+.input-field{
+    padding:0.625rem 1rem;
+    font-size: 1.25rem;;
+    border:none;
+    text-align: center;
+}
+.button{
+    height:3.125rem;
+    width: 3.125rem;
+    border-radius: 100%;
+    font-size: 1.875rem;
+    margin-left: 2rem;
+    border: none;
+    color: #fff;
+    background-color: #BC7AF9;
+}
+input[type=checkbox] {
+    position: relative;
+      cursor: pointer;
+}
+input[type=checkbox]:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 1.25rem;
+    height: 1.25rem;
+    top: 0;
+    left: 0;
+    background-color:#e9e9e9;
+}
+input[type=checkbox]:checked:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 1.25rem;
+    height: 1.25rem;
+    top: 0;
+    left: 0;
+    background-color:#1E80EF;
+}
+input[type=checkbox]:checked:after {
+    content: "";
+    display: block;
+    width: 0.3125rem;
+    height: 0.625rem;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    position: absolute;
+    top: 2px;
+    left: 6px;
+}
+span{
+    margin-left: 1.25rem;
+}
+footer{
+    text-align: center;
+    color: black;
+    margin-bottom: 7.5rem;
+}
+@media screen and (max-width: 1400px) {
+    .date,.work-heading
+{
+        width:40%;
+        margin:3rem auto;
+}
+.todo-box{
+    width:40%;
+    margin:0 auto 3.125rem;
+    
+}
+.each-item
+{
+   
+    font-size: 1.5rem;
+}
+.todo-list-box{
+  
+    padding:2.5rem 2rem;
+}
+.input-field{
+    padding:0.2rem;
+    font-size: 1rem;;
+    
+}
+.form-box{
+    padding:0.625rem 0.5rem 2.5rem;
+   
+}
+.button{
+    height:2rem;
+    width: 2rem;
+    font-size: 1rem;
+  }
+
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .date,.work-heading
+{
+        width:70%;
+        margin:3rem auto;
+}
+    .todo-box{
+        width:80%;
+        margin:0 auto 3.125rem;
+        
+    }
+ .each-item
+{
+   
+    font-size: 1rem;
+}
+.todo-list-box{
+  
+    padding:2.5rem 2rem;
+}
+.input-field{
+    padding:0.2rem;
+    font-size: 1rem;;
+    
+}
+.form-box{
+    padding:0.625rem 0.5rem 2.5rem;
+   
+}
+.button{
+    height:2rem;
+    width: 2rem;
+    font-size: 1rem;
+  }
+  .navbar{
+    text-align: center;
+    padding:1rem 1rem;
+  }
+}
+@media screen and (max-width: 320px) {
+
+    .input-field{
+        padding:0.1rem;
+        font-size: 1rem;;
+        
+    }
+    .button{
+        margin-left:0;
+      }
+      footer{
+        
+        margin-bottom: 4rem;
+    }
+}
