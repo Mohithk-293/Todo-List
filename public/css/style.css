@@ -25,6 +25,14 @@ body{
     font-size:1.25rem;
     background-color: #a65fe9;
 }
+.icon{
+    border: none;
+    background: none;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    color:#a65fe9;
+}
 
 .todo-box
 {
